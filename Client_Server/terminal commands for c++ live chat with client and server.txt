@@ -1,0 +1,22 @@
+In the Server terminal, you need this command: g++ -o server Server1.cpp
+In the Client's terminal you need this command: g++ -o klient Client1.cpp
+
+----------------------------
+
+The next command at the server is to define a port above 50000
+example ./server port -> ./server 55555
+
+----------------------------
+
+The next command we need to do on the client is to connect to the server
+and we do that with the following command ./a.out localhost port -> ./a.out localhost 55555
+
+----------------------------
+
+If we want to terminate the connection -> we do it with this command -> exit.
+
+----------------------------
+
+sudo apt-get install g++ -> install g++ compiler
+
+----------------------------
